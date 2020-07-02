@@ -1,0 +1,26 @@
+@keyframes divError {
+    0% {
+        display: flex;
+        align-self: flex-start;
+        height: 0px;
+    }
+    100% {
+        display: flex;
+        align-self: flex-start;
+        height: 100%;
+    }
+}
+
+@keyframes divHiddenError {
+    0% {
+        display: flex;
+        align-self: flex-start;
+        height: 20px;
+    }
+    100% {
+        display: flex;
+        align-self: flex-start;
+        height: 0%;
+        display: none;
+    }
+}
